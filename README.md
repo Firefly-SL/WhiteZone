@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-    <img src="./.github/assets/showcase.webp" alt="Project Showcase" width="75%"/>
+    <img src="./.github/assets/showcase.png" alt="Project Showcase" width="100%"/>
 </p>
 
 Widget made for Windows & Linux using Rust heavily inspired by 'Dale: Days Left & Years Tracker' available on iOS. 
@@ -21,9 +21,11 @@ After downloading, you can put the .exe in the Startup folder to autostart it.
 Linux:
 
 Run this in terminal
-`curl -fsSL https://raw.githubusercontent.com/Firefly-SL/WhiteZone/refs/heads/main/install.sh | bash`
+```bash
+curl -fsSL https://raw.githubusercontent.com/Firefly-SL/WhiteZone/refs/heads/main/install.sh | bash
+```
 
-> `Ctrl + Q`: To Quit the widget.
+> `Ctrl + Q`: To quit the widget.
 
 ## Uninstall
 Windows:
@@ -33,7 +35,9 @@ Delete the .exe in the startup folder.
 Linux:
 
 Run this in terminal
-`curl -fsSL https://raw.githubusercontent.com/<username>/<repo>/<branch>/install.sh | bash -s -- --uninstall`
+```bash
+curl -fsSL https://raw.githubusercontent.com/Firefly-SL/WhiteZone/refs/heads/main/install.sh | bash -s -- --uninstall
+```
 
 ## Build from source
 To build and run white-zone, you will need to have Rust installed. If you don't have it, you can install it by following the instructions on the [official Rust website](https://www.rust-lang.org/tools/install).
